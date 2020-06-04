@@ -1,3 +1,6 @@
+require 'pry'
+
+
 def find_element_index(array, value_to_find)
   # Add your solution here
   count = 0
@@ -5,7 +8,7 @@ def find_element_index(array, value_to_find)
     puts array[count] == value_to_find
 
     count += 1
-
+binding.pry
 
 
 
